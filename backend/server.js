@@ -1,5 +1,5 @@
-import express from 'express';
 import 'dotenv/config'
+import express from 'express';
 import connectDB from './database/db.js';
 import dns from 'dns'
 import userRoute from './routes/userRoutes.js'
